@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="stopwatch">
+
+        <h1 id="displayTime">00:00:00</h1>
+
+        <div class="buttons">
+
+            <div class="icons" onclick="watchStop()">
+                <i class="fa-solid fa-stop"></i>
+            </div>
+            <div class="icons" onclick="watchStart()">
+                <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="icons" onclick="watchReset()">
+                <i class="fa-solid fa-rotate-left"></i>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- custon js link -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

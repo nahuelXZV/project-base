@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #edeaff;
+}
+
+/* stopwatch container */
+
+.stopwatch {
+    width: 90%;
+    max-width: 600px;
+    background-image: url(image/image.jpeg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+    margin: 200px auto 0;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* timer */
+
+.stopwatch h1 {
+    margin: 30px 0 10px;
+    font-size: 64px;
+    font-weight: 300;
+}
+
+/* buttons */
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.buttons .icons {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons i {
+    margin: 0 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.buttons .icons:nth-child(2) {
+    height: 55px;
+    width: 55px;
+    background: orange;
+    border: 2px solid orange;
+}
+
+/* responsiveness */
+
+@media (max-width: 700px) {
+
+    .stopwatch {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 570px) {
+
+    .stopwatch {
+        max-width: 400px;
+        padding: 30px 0;
+        margin: 220px auto 0;
+    }
+
+    .stopwatch h1 {
+        font-size: 50px;
+    }
+
+    .buttons .icons {
+        height: 40px;
+        width: 40px;
+    }
+
+    .buttons i {
+        font-size: 15px;
+    }
+
+    .buttons .icons:nth-child(2) {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .stopwatch {
+        max-width: 300px;
+        padding: 20px 0;
+        margin: 240px auto 0;
+    }
+
+    .stopwatch h1 {
+        font-size: 40px;
+        margin: 20px 0 10px;
+    }
+
+    .buttons .icons {
+        height: 35px;
+        width: 35px;
+    }
+
+    .buttons .icons:nth-child(2) {
+        height: 45px;
+        width: 45px;
+    }
+}
