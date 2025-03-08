@@ -53,6 +53,9 @@
     top: 50%;
     transform: translateY(-50%);
     right: 15px;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
 }
 
 .input-box button i {

@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    user-select: none;
 }
 
 /* container */
@@ -55,7 +56,8 @@
     color: #fff;
     cursor: pointer;
     margin-top: 30px;
-
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .content button i {

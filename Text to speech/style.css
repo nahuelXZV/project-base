@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    user-select: none;
 }
 
 /* hero */
@@ -75,6 +76,9 @@ textarea::placeholder {
     cursor: pointer;
     display: flex;
     align-items: center;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
 }
 
 .row button i {

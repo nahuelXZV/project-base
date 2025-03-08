@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    user-select: none;
 }
 
 body {
@@ -75,12 +76,18 @@ body {
     padding: 16px 26px;
     border-radius: 5px;
     cursor: pointer;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
 }
 
 .container button i {
     color: #fff;
     font-size: 25px;
     margin-right: 10px;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
 }
 
 /* responsiveness */

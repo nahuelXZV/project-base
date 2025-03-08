@@ -100,6 +100,9 @@ body {
     margin: 5px;
     cursor: pointer;
     font-size: 16px;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
 }
 
 .button i {

@@ -187,6 +187,7 @@
 
     .clock span::after {
         font-size: 14px;
+        top: 50px;
     }
 }
 
@@ -194,7 +195,7 @@
 
     .container {
         width: 280px;
-        height: 100px;
+        height: 110px;
     }
 
     .container::after,
@@ -205,5 +206,9 @@
     .clock span {
         font-size: 35px;
         width: 50px;
+    }
+
+    .clock span::after {
+        top: 45px;
     }
 }
