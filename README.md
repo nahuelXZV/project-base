@@ -75,6 +75,7 @@ Each project includes:
 17. **Toast Notification** – A simple toast notification popup.  
 18. **Stopwatch** – A functional stopwatch with start, stop, and reset.
 19. **To-do list** - A functional to-do list app to add tasks.
+20. **Weather App** - A weather app to display weather of different cities.
 
 ---
 
