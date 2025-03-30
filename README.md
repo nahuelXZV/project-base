@@ -76,6 +76,7 @@ Each project includes:
 18. **Stopwatch** – A functional stopwatch with start, stop, and reset.
 19. **To-do list** - A functional to-do list app to add tasks.
 20. **Weather App** - A weather app to display weather of different cities.
+21. **Image search engine** - An image search engine using unsplash API.
 
 ---
 
