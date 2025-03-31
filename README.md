@@ -77,6 +77,7 @@ Each project includes:
 19. **To-do list** - A functional to-do list app to add tasks.
 20. **Weather App** - A weather app to display weather of different cities.
 21. **Image search engine** - An image search engine using unsplash API.
+22. **From validation** - A form with validation checks to make sure the input is valid.
 
 ---
 
