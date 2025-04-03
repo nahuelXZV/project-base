@@ -33,6 +33,7 @@ body {
     font-weight: 600;
     margin-bottom: 40px;
     position: relative;
+    user-select: none;
 }
 
 .quote-box h2::after {

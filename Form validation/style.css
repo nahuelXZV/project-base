@@ -99,12 +99,20 @@
     right: 30px;
     font-size: 14px;
     color: red;
+    user-select: none;
 }
 
 /* validation icon */
 
 .input-group span i {
     color: seagreen;
+}
+
+/* button wrap */
+
+.button-wrap {
+    display: flex;
+    justify-content: center;
 }
 
 /* submit button */
@@ -118,7 +126,7 @@ form button {
     outline: 0;
     cursor: pointer;
     display: block;
-    margin: 30px auto 10px;
+    margin: 30px auto 20px;
     user-select: none;
     outline: none;
     -webkit-tap-highlight-color: transparent;
@@ -128,6 +136,9 @@ form button {
 
 #submit-error {
     color: red;
+    user-select: none;
+    position: absolute;
+    bottom: 10px;
 }
 
 /* responsiveness */
