@@ -78,6 +78,7 @@ Each project includes:
 20. **Weather App** - A weather app to display weather of different cities.
 21. **Image search engine** - An image search engine using unsplash API.
 22. **From validation** - A form with validation checks to make sure the input is valid.
+23. **Notes App** - a notes app to create multiple notes.
 
 ---
 
