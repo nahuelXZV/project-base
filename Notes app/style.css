@@ -24,7 +24,6 @@
     align-items: center;
     font-size: 35px;
     font-weight: 600;
-    user-select: none;
 }
 
 /* icons */
@@ -48,7 +47,6 @@
     padding: 15px 25px;
     margin: 30px 0 20px;
     cursor: pointer;
-    user-select: none;
     outline: none;
     -webkit-tap-highlight-color: transparent;
 }
@@ -91,7 +89,6 @@
     cursor: pointer;
     font-size: 18px;
     color: #000;
-    user-select: none;
     outline: none;
     -webkit-tap-highlight-color: transparent;
 }

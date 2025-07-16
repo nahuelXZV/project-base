@@ -61,7 +61,6 @@ body {
     font-size: 20px;
     outline: none;
     -webkit-tap-highlight-color: transparent;
-    user-select: none;
 }
 
 .buttons .icons:nth-child(2) {

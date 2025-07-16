@@ -62,7 +62,6 @@ body {
     font-weight: 500;
     outline: none;
     -webkit-tap-highlight-color: transparent;
-    user-select: none;
 }
 
 /* QR code image */

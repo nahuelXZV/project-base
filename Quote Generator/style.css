@@ -33,7 +33,6 @@ body {
     font-weight: 600;
     margin-bottom: 40px;
     position: relative;
-    user-select: none;
 }
 
 .quote-box h2::after {
@@ -103,7 +102,6 @@ body {
     font-size: 16px;
     outline: none;
     -webkit-tap-highlight-color: transparent;
-    user-select: none;
 }
 
 .button i {

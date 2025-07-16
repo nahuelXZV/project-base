@@ -39,7 +39,6 @@
     cursor: pointer;
     outline: none;
     -webkit-tap-highlight-color: transparent;
-    user-select: none;
 }
 
 /* down arrow */
@@ -70,7 +69,6 @@
     align-items: center;
     outline: none;
     -webkit-tap-highlight-color: transparent;
-    user-select: none;
 }
 
 .options:hover {

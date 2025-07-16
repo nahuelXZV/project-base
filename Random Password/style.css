@@ -79,7 +79,6 @@ body {
     cursor: pointer;
     outline: none;
     -webkit-tap-highlight-color: transparent;
-    user-select: none;
 }
 
 .container button i {
@@ -88,7 +87,6 @@ body {
     margin-right: 10px;
     outline: none;
     -webkit-tap-highlight-color: transparent;
-    user-select: none;
 }
 
 /* responsiveness */

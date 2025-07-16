@@ -78,7 +78,6 @@ textarea::placeholder {
     align-items: center;
     outline: none;
     -webkit-tap-highlight-color: transparent;
-    user-select: none;
 }
 
 .row button i {

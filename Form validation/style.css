@@ -69,7 +69,6 @@
 
 .input-group label {
     flex-basis: 28%;
-    user-select: none;
 }
 
 /* input and textarea */
@@ -99,7 +98,6 @@
     right: 30px;
     font-size: 14px;
     color: red;
-    user-select: none;
 }
 
 /* validation icon */
@@ -127,7 +125,6 @@ form button {
     cursor: pointer;
     display: block;
     margin: 30px auto 20px;
-    user-select: none;
     outline: none;
     -webkit-tap-highlight-color: transparent;
 }
@@ -136,7 +133,6 @@ form button {
 
 #submit-error {
     color: red;
-    user-select: none;
     position: absolute;
     bottom: 10px;
 }
