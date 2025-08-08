@@ -4,7 +4,7 @@ Welcome to the **HTML, CSS & JavaScript Mini Projects Website!** 🎨✨
 This website showcases various **mini projects** I created to enhance my front-end development and JavaScript skills. Each project comes with an **image preview**, **source code link**, and **live demo link** for easy access.  
 
 This is part of my journey to master front-end development, JavaScript logic, and UI/UX design. 🚀  
-
+ a
 ---
 
 ## 📌 Overview  
